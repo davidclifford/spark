@@ -1,0 +1,324 @@
+{
+	"info": {
+		"_postman_id": "e1719c31-e3e7-4d7b-b4f1-9072738abe9e",
+		"name": "Spark",
+		"description": "Spark coding exercise",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add movie 1",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "testing1",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "spark",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"title\": \"The Shawshank Redemption\",\r\n\t\"plot\": \"Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.\",\r\n\t\"releaseDate\": \"1994-10-14\",\r\n\t\"actors\": [\r\n\t\t\"Tim Robbins\",\r\n\t\t\"Morgan Freeman\",\r\n\t\t\"Bob Gunton\",\r\n\t\t\"William Sadler\"\r\n\t],\r\n\t\"duration\": 142,\r\n\t\"poster\":\r\n\t\"https://images-na.ssl-images-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg\",\r\n\t\"rating\": \"PG\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:3000/movies",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add movie 2",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "testing1",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "spark",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"title\": \"Fargo\",\r\n\t\"plot\": \"Jerry Lundegaard's inept crime falls apart due to his and his henchmen's bungling and the persistent police work of the pregnant Marge Gunderson.\",\r\n\t\"releaseDate\": \"1996-04-05\",\r\n\t\"actors\": [\r\n\t\t\"William H Macy\",\r\n\t\t\"Frances McDormand\",\r\n\t\t\"Steve Buscemi\",\r\n\t\t\"Peter Stormare\"\r\n\t],\r\n\t\"duration\": 98,\r\n\t\"poster\": \"https://images-na.ssl-images-amazon.com/images/I/51Y6GvErAcL._SX342_.jpg\",\r\n\t\"rating\": \"R\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:3000/movies",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add movie 3",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "testing1",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "spark",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"title\": \"Alien\",\r\n\t\"plot\": \"After a space merchant vessel perceives an unknown transmission as a distress call, its landing on the source moon finds one of the crew attacked by a mysterious lifeform, and they soon realize that its life cycle has merely begun. \",\r\n\t\"releaseDate\": \"1979-06-22\",\r\n\t\"actors\": [\r\n\t\t\"Sigourney Weaver\",\r\n\t\t\"Tom Skerritt\",\r\n\t\t\"John Hurt\",\r\n\t\t\"Ian Holm\"\r\n\t],\r\n\t\"duration\": 116,\r\n\t\"poster\": \"https://www.imdb.com/title/tt0078748/mediaviewer/rm986060544?ref_=tt_ov_i\",\r\n\t\"rating\": \"R\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:3000/movies",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add movie 4",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "testing1",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "spark",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"title\": \"First Men in the Moon\",\r\n\t\"plot\": \"When a spaceship lands on the moon, it is hailed as a new accomplishment, before it becomes clear that a Victorian party completed the journey in 1899, leading investigators to that mission's last survivor.\",\r\n\t\"releaseDate\": \"1964-11-20\",\r\n\t\"actors\": [\r\n\t\t\"Edward Judd\",\r\n\t\t\"Lionel Jeffries\",\r\n\t\t\"Martha Hyer\"\r\n\t],\r\n\t\"duration\": 103,\r\n\t\"poster\": \"https://m.media-amazon.com/images/M/MV5BZDU5ZDZiZjAtNmVhYS00ZjViLTgwMGItYzMwYzA5Yjg3MWU0XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg\",\r\n\t\"rating\": \"PG\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:3000/movies",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add movie 5",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "testing1",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "spark",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"title\": \"The Wages of Fear\",\r\n\t\"plot\": \"In a decrepit South American village, four men are hired to transport an urgent nitroglycerine shipment without the equipment that would make it safe.\",\r\n\t\"releaseDate\": \"1955-02-16\",\r\n\t\"actors\": [\r\n\t\t\"Yves Montand\",\r\n\t\t\"Charles Vanel\",\r\n\t\t\"Peter van Eyck\",\r\n\t\t\"Folco Lulli\"\r\n\t],\r\n\t\"duration\": 171,\r\n\t\"poster\": \"https://m.media-amazon.com/images/M/MV5BZDdkNzMwZmUtY2Q5MS00ZmM2LWJhYjItYTBjMWY0MGM4MDRjXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY268_CR1,0,182,268_AL_.jpg\",\r\n\t\"rating\": \"NR\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:3000/movies",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all movies",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "testing1",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "spark",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:3000/movies",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get movie 1",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "testing1",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "spark",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:3000/movies/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"movies",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete movie 1",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "testing1",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "spark",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:3000/movies/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"movies",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
