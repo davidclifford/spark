@@ -6,9 +6,11 @@ npm install
 
 ## How to run
 
-node index.js
+npm start
 
 ## How to use
+
+Assuming you are using Postman.
 
 To add a new movie, use:
 
